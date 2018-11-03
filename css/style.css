@@ -6,14 +6,14 @@ body{
 }
 .sec1{
   width: 100%;
-  height: 500px;
-  background: #818bf3;
+   height: 500px; 
+  background: #4683fc;
   position: relative;
 }
 
 .sec2{
   width: 100%;
-  height: 500px;
+  /* height: 650px; */
   background: #fff;
   position: relative; 
 }
@@ -42,53 +42,103 @@ body{
 }
 
 .about_top{
-  padding-top: 85px;
-  font-size: 45px;
+   padding-top:100px; 
 }
+
+.insurence{
+color: #fff;
+}
+
+.auto-insurance{
+    font-size: 35px;  
+  color: #c51f49;
+  
+  font-family: 'Crete Round', serif;
+}
+.title{
+  font-size: 30px;
+  font-family: 'Crete Round', serif;
+}
+textarea.form-control{
+  height:147px;
+  }
 
 .text{
-  border: 1px solid #ccc;
-  width: 1000px;
-  height: 200px;
-  padding: 25px 35px  25px 35px;
-  margin-top: 50px;
-  margin-left: 200px;
-  background-color: white;
-  box-shadow: 0px 6px 0px 6px #ccc;
-
+  /* border: 1px solid #ccc; */
+ 
+  /* height: 200px; */
+  padding: 25px 15px  25px 15px; 
+  text-align: center;
+  margin-left: 100px;
+  color: white;
 }
+
 .path{
   margin-top: 30px;
 }
 .button{
   margin-top: 40px;
-  padding: 10px 10px;
-  width: 150px;
-  background-color: #818bf3;
+  padding: 20px 20px;
+  width: 220px;
+  background-color: #bb2d51;
   border: none;
+  color: #fff;
+  font-size: 19px;
+  text-align: center;
+  list-style: none;
 }
 
 .button1{
   margin-top: 0px;
   padding: 8px 8px;
   width: 100px;
-  background-color: #818bf3;
+  background-color: #a09999;
   border: none;
+  color: #fff;
+
 }
 .button1:hover{
-  background-color: #b5baf4;
+  background-color: #c5627a;
   border: none;
 }
 
 .button:hover{
-  background-color: #b5baf4;
+  background-color: #c5627a;
   border: none;
+ 
+  
+}
+.button a{
+  list-style: none;
+  color: white;
+
 }
 
-#top-header{
+.main-color{
+  background-color: #4683fc;
+   opacity: .9; 
+ 
+  
+} 
+
+.banner {
+  position: absolute;
+  bottom: -192px;
+  left: 50px;
+   /* display: none;   */
+} 
+#Services{
+  background-image: url(../images/44.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px 20px;
+  color: white;
+} 
+
+ /* #Services{
   position: relative;
 }
-#top-header::after{
+#Services::after{
   content: "";
   display: block;
   top: 0px;
@@ -96,9 +146,14 @@ body{
   left: 0px;
   right: 0px;
   position: absolute;
-  background: black;
-  opacity: 0.3;
+  background: rgb(61, 50, 50);
+   opacity: 0.3; 
+  
+}  */
+#Services p{
+  color: white;
 }
+
 
 .text_main{
   position: absolute;
@@ -127,9 +182,9 @@ body{
 }
 
 #top-header{
-  background:url(../images/4.jpg);
+  background:url(../images/44.gif);
 background-attachment:fixed;
-height: 700px;
+height: 645px;
 background-size:cover;
 }
 #video{
@@ -159,9 +214,9 @@ background-size:cover;
 }
 
 #Features{
-  background-image: url(../images/4.jpeg);
+background-image: url(../images/back.jpeg);
 background-attachment:fixed;
-height: 500px;
+/* height: 500px; */
 background-size:cover;
 }
 .box1{
@@ -173,7 +228,7 @@ background-size:cover;
 }
 .box{
   margin-top: 20px;
-}
+} 
 .icon1{
   font-size: 40px;
 color: #818bf3;
@@ -189,6 +244,107 @@ border-radius: 20px;
   overflow: hidden;
   padding: 5px;
   border-radius: 150px;
-  
-
 }
+
+#contact{
+  background-color:#f5f7fa;
+}
+.contact-submit{
+  float:right;
+  }  
+  .sub-bar{
+    background-color: #ad0f17;
+    color: #fff;
+    padding: 8px 5px;
+    width: 100px;
+  }
+ 
+ 
+
+  .laptop{
+    position: absolute  !important;
+    max-width: 100%  !important;
+    height: auto  !important;
+    position: absolute  !important;
+    top: -80px  !important;
+    margin-left: -180px;
+   }
+
+  .laptop img{
+    position: absolute  !important;
+    max-width: 100%  !important;
+    height: auto  !important;
+    
+   }
+ 
+  P{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+  }
+  h2{
+    font-family: 'Lato', sans-serif;
+    color: black;
+  }
+  .copy-right{
+    text-align:left;
+    }
+    .ft-social li{
+    list-style:none;
+    display:inline-block;
+    background: #212f3d ;
+    margin-left:7px;
+    color: white;
+    float:right;
+    width:40px;
+    height:40px;
+    }
+    .fa-facebook{
+    color: white;
+    margin-left:15px;
+    margin-top:10px;
+    }	
+    .fa-twitter{
+    color: white;
+    margin-left:12px;
+    margin-top:12px;
+    
+    }
+    .fa-whatsapp{
+    color: white;
+    margin-left:12px;
+    margin-top:12px;
+    
+    }		
+    .fa-youtube{
+    color: white;
+    margin-left:12px;
+    margin-top:12px;
+    
+    }	
+    .fa-google-plus{
+    color: white;
+    margin-left:10px;
+    margin-top:12px;
+    
+    }	
+    
+    .facebook:hover{
+    background: #0c56e2 ;
+    
+    }
+    .twitter:hover{
+    background: #49aee4 ;
+    
+    }
+    .whatsapp:hover{
+    background: #068f04 ;
+    
+    }
+    .youtube:hover{
+    background:red;
+    
+    }
+    .google-plus:hover{
+    background: #e4494c ;
+    
+    }

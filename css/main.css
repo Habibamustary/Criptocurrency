@@ -94,7 +94,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .navbar-nav .nav-link.active{
-    background: #f00 !important;
+    background: rgb(209, 111, 135) !important;
 }
 
 
